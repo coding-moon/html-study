@@ -1,0 +1,54 @@
+<!--  
+	테이블(table)
+	여러 종류의 데이터가 행과 열로 정리된 표
+	
+	<table>
+		<th></th> 글자 굵게
+		<tr> 행
+			<td></td> 열
+			<td></td>
+			<td></td>
+		</tr>
+		<tr> 행
+			<td></td> 열
+			<td></td>
+			<td></td>
+		</tr>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table 태그</title>
+<style>
+	table {
+		width: 30%;
+		border: 1px solid black; 
+		border-collapse: collapse;
+		margin: 0 auto;
+	}
+	
+	th, td{
+		border: 1px solid black;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>이름</th>
+			<th>나이</th>
+		</tr>
+		<tr>
+			<th>문은서</th>
+			<th>20살</th>
+		</tr>
+		<tr>
+			<td>홍길동</td>
+			<td>21살</td>
+		</tr>
+	</table>
+</body>
+</html>
